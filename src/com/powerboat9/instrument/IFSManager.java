@@ -1,3 +1,5 @@
+package com.powerboat9.instrument;
+
 public interface IFSManager {
     Reader getFile(byte[] in);
     
