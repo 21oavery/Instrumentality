@@ -8,4 +8,6 @@ public interface IFSManager {
     boolean publish(Object o);
     
     boolean unpublish(byte[] hash);
+    
+    void update();
 }
