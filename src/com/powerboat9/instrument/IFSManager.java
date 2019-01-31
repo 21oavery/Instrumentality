@@ -9,5 +9,5 @@ public interface IFSManager {
     
     boolean unpublish(HashObject hash);
     
-    void update();
+    boolean update();
 }
