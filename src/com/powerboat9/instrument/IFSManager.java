@@ -3,11 +3,11 @@ package com.powerboat9.instrument;
 import java.io.Reader;
 
 public interface IFSManager {
-    Reader getFile(byte[] in);
+    Reader getFile(HashObject hash);
     
     boolean publish(Object o);
     
-    boolean unpublish(byte[] hash);
+    boolean unpublish(HashObject hash);
     
     void update();
 }
